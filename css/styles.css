@@ -1,15 +1,18 @@
 h1 {
-    color: red;
+    color: white;
     text-align: center;
   }
   
   h2 {
     font-style: normal;
+    color: white;
     text-align: center;
   }
   
   p {
     font-family: sans-serif;
+    color: white;
+    font-size: 17px;
   }
   
   ul {
@@ -24,3 +27,23 @@ h1 {
     width: 50%;
   }
   
+  .box1 {
+    width: 50%;
+    border: solid white;
+    border-width: 10px;
+    background-color: orange;
+    margin-bottom: 10px;
+  }
+  
+  .box2 {
+    width: 50%;
+    padding: 20px;
+    border: solid white;
+    border-width: 10px;
+    background-color: orange;
+    margin-bottom: 10px;
+  }
+  
+  * {
+	  background-color: black;
+	  }
